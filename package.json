@@ -1,0 +1,19 @@
+{
+  "name": "dynamic-twitter-banner",
+  "version": "1.0.0",
+  "description": "Script that will upload a dynamic Twitter banner including the user's follower count.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@jamesqquick",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cloudinary": "^1.30.0",
+    "dotenv": "^16.0.1",
+    "node-fetch": "^3.2.6",
+    "twitter-api-client": "^1.5.2"
+  }
+}
